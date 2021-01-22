@@ -52,6 +52,7 @@ function budgetCalculator(watchesCount = 0, phonesCount = 0, laptopsCount = 0) {
          LAPTOP_PRICE * laptopsCount;
 }
 
+
 /**
  * Calculates the cost staying in hotel for certain days.
  * @param   {number} days - Number of days stayed.
@@ -118,7 +119,6 @@ function hotelCost(days) {
   return totalCost;
 }
 
-//console.log(hotelCost(13));
 
 /**
  * Finds the longest name in a given array of names.
